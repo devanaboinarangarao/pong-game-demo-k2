@@ -15,11 +15,11 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    # Fill the background
+    # Fill the background with black color
     window.fill((0, 0, 0))
 
-    # Update the display
+    # Update the display with the new frame
     pygame.display.flip()
 
-# Quit Pygame
+# Quit Pygame when the loop ends
 pygame.quit()
